@@ -553,7 +553,7 @@ EOF
 	  SYSTEM_NAME=`"$dummy" "$dummyarg"` &&
 	    { echo "$SYSTEM_NAME"; exit; }
 	GUESS=mips-mips-riscos$UNAME_RELEASE
-	;;
+	;; 
     Motorola:PowerMAX_OS:*:*)
 	GUESS=powerpc-motorola-powermax
 	;;
